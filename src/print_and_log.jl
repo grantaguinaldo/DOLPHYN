@@ -22,13 +22,17 @@ log file depending on global ```Log``` flag.
 """
 function print_and_log(message::AbstractString)
 
-    # Log is set as global variable
-    
-    if Log
+    if Log && message isa AbstractString
         println(message)
         @info(message)
+
+    elseif Log && message isa Number
+        println(string(message, base=10, pad=10))
+        @info(string(message, base=10, pad=10))
+
     else
         println(message)
+    
     end
 
 end
