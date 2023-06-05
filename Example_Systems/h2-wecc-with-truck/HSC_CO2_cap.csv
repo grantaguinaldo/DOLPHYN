@@ -1,0 +1,7 @@
+,Network_zones,CO_2_Cap_Zone_1,CO_2_Max_Mtons_1,CO_2_Max_tons_ton_1,CO_2_Price_1
+CA_N,z1,1,0.025,1,1000
+CA_S,z2,1,0.025,1,1000
+WECC_N,z3,1,0.025,1,1000
+WECC_NMAZ,z4,1,0.025,1,1000
+WECC_PNW,z5,1,0.025,1,1000
+WECC_WYCO,z6,1,0.025,1,1000
